@@ -18,7 +18,7 @@ class Game {
     this.totalTargetRemove = 0;
     modale.classList.add('hidden');
     this.clearBoard();
-    levelHtml.textContent = this.level + 1;
+    levelHtml.textContent = this.level;
     this.spawnInterval = setInterval(() => {
       if (this.totalTarget >= 10) {
         clearInterval(this.spawnInterval);
