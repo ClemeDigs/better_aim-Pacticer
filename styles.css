@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #2d2d2d;
+  overflow: hidden;
+  font-family: "Anton", sans-serif;
+}
+
+.game {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.target {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+}
+
+.modal--restart {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.text {
+  width: 50vw;
+  border-radius: 100px;
+  background-color: white;
+  color: #2d2d2d;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.start-button {
+  font-family: "Anton", sans-serif;
+  background-color: #C947F5;
+  color: white;
+  font-size: 2rem;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  border: none;
+  box-shadow: 5px 5px 5px #8523a63b;
+}
+
+.start-button:hover {
+  box-shadow: 5px 5px 5px #9eeccb58;
+  cursor: pointer;
+  color: #9eeccc;
+}
